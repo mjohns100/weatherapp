@@ -1,0 +1,305 @@
+body {
+    background-color: #97B5B5;
+}
+
+section {
+    background-color: #97B5B5;
+
+}
+
+.zip {
+    background-color: white;
+    height: 75px;
+    margin: 30px 25px 30px 70px;
+    padding: 10px;
+    border-radius: 50px;
+    border: 1px solid #6A6A6A;
+    padding-left: 25px;
+    font-family: filicudi-solid, sans-serif;
+    font-size: 39px;
+    text-align: left;
+    color: #6A9898;
+}
+
+
+.go {
+    background-color: #7EB7B7;
+    margin: 30px 0px;
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+    border: 3px solid white;
+    padding: 0px;
+    text-align: center;
+    font-size: 45px;
+    margin: 30px 0px;
+    font-family: filicudi-solid, sans-serif;
+    color: #fff;
+}
+
+.go:hover {
+    background-color: rgba(69, 165, 99, 0.6);
+    cursor: pointer;
+}
+
+
+.bgPhoto {
+    background-image: url("../images/freddie-marriage-mYOea-xnu-k-unsplash.jpg");
+    background-repeat: no-repeat;
+    height: 700px;
+    background-size: cover;
+    background-position: center left;
+}
+
+.blackbox {
+    background-color: rgba(0, 0, 0, 0.35);
+    height: 400px;
+    margin: 150px auto;
+    border-radius: 50px;
+}
+
+.city {
+    float: left;
+}
+
+.city p {
+    font-size: 55px;
+    font-family: filicudi-solid, sans-serif;
+    color: #fff;
+    line-height: 50px;
+    padding: 0px;
+    margin-top: 130px;
+    text-align: center;
+}
+
+.report {
+    float: right;
+    font-size: 80px;
+    font-family: filicudi-solid, sans-serif;
+    color: #fff;
+    line-height: 60px;
+    margin-top: 100px;
+}
+
+
+.its {
+    vertical-align: 200%;
+}
+
+.temp {
+    font-size: 272px;
+    color: #DEFFFF
+}
+
+
+.footer p {
+    text-align: right;
+    font-size: 75px;
+    padding-top: 15px;
+    padding-right: 70px;
+    margin: auto;
+    font-family: filicudi-solid, sans-serif;
+    color: #fff;
+}
+
+
+/* Style the search field */
+form.example input[type=text] {
+    background-color: white;
+    height: 75px;
+    margin: 30px 25px 30px 70px;
+    padding: 10px;
+    border-radius: 50px;
+    border: 1px solid #6A6A6A;
+    padding-left: 25px;
+    font-family: filicudi-solid, sans-serif;
+    font-size: 39px;
+    text-align: left;
+    color: #6A9898;
+}
+
+/* Style the submit button */
+form.example button {
+    background-color: #7EB7B7;
+    margin: 30px 0px;
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+    border: 3px solid white;
+    padding: 0px;
+    text-align: center;
+    font-size: 45px;
+    margin: 30px 0px;
+    font-family: filicudi-solid, sans-serif;
+    color: #fff;
+}
+
+form.example button:hover {
+    background-color: rgba(69, 165, 99, 0.6);
+    cursor: pointer;
+}
+
+/* Clear floats */
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+@media screen and (max-width: 1550px) {
+
+    .report {
+        font-size: 5vw;
+        padding-top: 2%;
+
+    }
+
+    .its {
+        vertical-align: 6vw;
+        font-size: 5vw;
+    }
+
+    .temp {
+        font-size: 15vw;
+
+    }
+
+    .city p {
+        font-size: 4vw;
+    }
+    
+    form.example input[type=text] {
+        font-size: 30px;
+        padding-top: 12px;
+    }
+}
+
+
+@media screen and (max-width: 992px) {
+
+
+    .report {
+        font-size: 10vw;
+        line-height: 9vw;
+        margin: auto;
+        float: none;
+        text-align: center;
+        padding-top: 120px;
+
+    }
+
+    .its {
+        vertical-align: 6vw;
+        font-size: 5vw;
+    }
+
+    .temp {
+        font-size: 15vw;
+
+    }
+
+    .city p {
+        font-size: 6vw;
+        margin: 0 auto;
+    }
+
+}
+
+
+@media screen and (max-width: 768px) {
+
+    .report {
+        font-size: 12vw;
+        line-height: 9vw;
+        margin: auto;
+float: none;
+        text-align: center;
+        padding-top: 120px;
+
+    }
+
+    .its {
+        vertical-align: 6vw;
+        font-size: 10vw;
+    }
+
+    .temp {
+        font-size: 25vw;
+
+    }
+
+    .city p {
+        font-size: 10vw;
+        margin: 0 auto;
+        padding-top: 35px;
+        padding-bottom: 60px;
+    }
+    
+    form.example input[type=text] {
+        padding-top: 3%;}
+
+}
+
+.footer p {
+    font-size: 45px;
+    text-align: right;
+    margin: 0;
+    padding: 0px 25px 10px 0px;
+}
+
+
+@media screen and (max-width: 576px) {
+    form.example input[type=text] {
+        font-size: 24px;
+        padding-top: 10px;
+        margin: 15px 10px;
+    }
+    
+    form.example button {
+        margin: 10px 0px;
+        font-size: 30px;
+    }
+    
+    .city p {
+        font-size: 50px;
+        margin: 20px 0px;
+        padding: 100px 0px 50px 0px;
+        text-align: center;
+    }
+
+    .report {
+        font-size: 60px;
+        line-height: 50px;
+        margin: 0 auto;
+        padding-top: 200px;
+        text-align: center;
+        
+    }
+    .its {
+        font-size: 60px;
+    }
+    
+    .temp {
+        font-size: 150px;
+        margin-top: 25px;
+    }
+
+    .footer p {
+        font-size: 45px;
+        text-align: center;
+        padding: 10px 0px 0px 0px;
+    }
+    
+    .bgPhoto {
+        height: 75vh;
+    }
+    
+    .blackbox {
+        margin: 50px 0px;
+        height: 65vh; 
+        border-radius: 0;
+    }
+
+}
+
