@@ -43,8 +43,9 @@ section {
 }
 
 
-.bgPhoto {
-    background-image: url("../images/rain.jpg");
+#bgPhoto {
+    background-color: #393939;
+    /*background-image: url(/images/rain.jpg); */
     background-repeat: no-repeat;
     height: 700px;
     background-size: cover;
@@ -150,7 +151,7 @@ button:hover {
 @media screen and (max-width: 1550px) {
 
     .report {
-        font-size: 5vw;
+        font-size: 4vw;
         padding-top: 2%;
 
     }
@@ -167,6 +168,8 @@ button:hover {
 
     .city p {
         font-size: 4vw;
+        text-align: left;
+        margin-top: 30%;
     }
     
     #zipCode {
@@ -180,8 +183,8 @@ button:hover {
 
 
     .report {
-        font-size: 10vw;
-        line-height: 9vw;
+        font-size: 6vw;
+        line-height: 7vw;
         margin: auto;
         float: none;
         text-align: center;
@@ -200,7 +203,8 @@ button:hover {
     }
 
     .city p {
-        font-size: 6vw;
+        font-size: 5vw;
+        text-align: center;
         margin: 0 auto;
     }
 
@@ -210,7 +214,7 @@ button:hover {
 @media screen and (max-width: 768px) {
 
     .report {
-        font-size: 12vw;
+        font-size: 8vw;
         line-height: 9vw;
         margin: auto;
         float: none;
@@ -230,10 +234,11 @@ button:hover {
     }
 
     .city p {
-        font-size: 10vw;
+        font-size: 8vw;
+        text-align: center;
         margin: 0 auto;
-        padding-top: 35px;
-        padding-bottom: 60px;
+        padding-top: 0px;
+        padding-bottom: 50px;
     }
     
     #zipCode {
@@ -264,7 +269,7 @@ button:hover {
     .city p {
         font-size: 50px;
         margin: 20px 0px;
-        padding: 100px 0px 50px 0px;
+        padding: 50px 0px 50px 0px;
         text-align: center;
     }
 
