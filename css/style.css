@@ -44,7 +44,7 @@ section {
 
 
 .bgPhoto {
-    background-image: url("../images/freddie-marriage-mYOea-xnu-k-unsplash.jpg");
+    background-image: url("../images/rain.jpg");
     background-repeat: no-repeat;
     height: 700px;
     background-size: cover;
@@ -104,7 +104,7 @@ section {
 
 
 /* Style the search field */
-form.example input[type=text] {
+#zipCode {
     background-color: white;
     height: 75px;
     margin: 30px 25px 30px 70px;
@@ -119,7 +119,7 @@ form.example input[type=text] {
 }
 
 /* Style the submit button */
-form.example button {
+button {
     background-color: #7EB7B7;
     margin: 30px 0px;
     height: 75px;
@@ -134,13 +134,13 @@ form.example button {
     color: #fff;
 }
 
-form.example button:hover {
+button:hover {
     background-color: rgba(69, 165, 99, 0.6);
     cursor: pointer;
 }
 
 /* Clear floats */
-form.example::after {
+#zipCode::after {
   content: "";
   clear: both;
   display: table;
@@ -169,7 +169,7 @@ form.example::after {
         font-size: 4vw;
     }
     
-    form.example input[type=text] {
+    #zipCode {
         font-size: 30px;
         padding-top: 12px;
     }
@@ -213,7 +213,7 @@ form.example::after {
         font-size: 12vw;
         line-height: 9vw;
         margin: auto;
-float: none;
+        float: none;
         text-align: center;
         padding-top: 120px;
 
@@ -236,7 +236,7 @@ float: none;
         padding-bottom: 60px;
     }
     
-    form.example input[type=text] {
+    #zipCode {
         padding-top: 3%;}
 
 }
@@ -250,13 +250,13 @@ float: none;
 
 
 @media screen and (max-width: 576px) {
-    form.example input[type=text] {
+    #zipCode {
         font-size: 24px;
         padding-top: 10px;
         margin: 15px 10px;
     }
     
-    form.example button {
+    button {
         margin: 10px 0px;
         font-size: 30px;
     }
@@ -302,4 +302,12 @@ float: none;
     }
 
 }
+
+@media screen and (max-width: 410px) {
+    #zipCode {
+        font-size: 24px;
+        padding-top: 10px;
+        margin: 15px 10px;
+        width: 250px;
+    }
 
